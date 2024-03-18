@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>EchoReel</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <style>
+    .results-carousel .item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .results-carousel .item img {
+      max-width: 100%; /* Adjust the image width if necessary */
+      height: auto; /* Maintain the aspect ratio */
+    }
+
+    .full-width-table td:nth-child(1) {
+      width: 20%;
+    }
+
+    .full-width-table td:nth-child(2),
+    .full-width-table td:nth-child(3) {
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title" style="width: 110%; margin-left: -5%; margin-right: -5%;"> <embed src="static/images/icon.svg" style="vertical-align: middle;" type="image/svg+xml" width="60" height="60"/> EchoReel: Enhancing Action Generation of Existing Video Diffusion Models</h1>
+            
+            <div class="publication-links">
+              <!-- Arxiv PDF link -->
+           <span class="link-block">
+             <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+             class="external-link button is-normal is-rounded is-dark">
+             <span class="icon">
+               <i class="fas fa-file-pdf"></i>
+             </span>
+             <span>Paper</span>
+           </a>
+         </span>
+
+            <!-- Github link -->
+            <span class="link-block">
+              <a href="https://github.com/liujianzhi/EchoReel" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+
+          <!-- ArXiv abstract Link -->
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+          </a>
+        </span>
+            
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <a href='https://github.com/liujianzhi' target='_blank'> Jianzhi Liu</a>&emsp;
+              <a href='https://scholar.google.com/citations?user=J0qJuYAAAAAJ&hl=zh-CN' target='_blank'> Junchen Zhu</a>&emsp;
+              <a href='https://scholar.google.com.au/citations?user=zsm2dpYAAAAJ&hl=en' target='_blank'> Lianli Gao</a>&emsp;
+              <a href='https://scholar.google.com.au/citations?user=F5Zy9V4AAAAJ&hl=en' target='_blank'> Jingkuan Song</a>&emsp;
+            </div>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              University of Electronic Science and Technology of China
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div style="text-align: center;">
+  <i>"Imitation is the sincerest form of flattery that mediocrity can pay to greatness."</i> — Oscar Wilde 
+</div>
+</br>
+</br>
+<!-- Teaser video-->
+
+<!-- End teaser video -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body" style="display: flex; justify-content: center;">
+      <embed src="static/images/3.svg" width="130%" style="margin-left: -15%; margin-right: -15%;" alt="MY ALT TEXT">
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent large-scale video datasets have facilitated the generation of diverse open-domain videos of Video Diffusion Models (VDMs). Nonetheless, the efficacy of VDMs in assimilating complex knowledge from these datasets remains constrained by their inherent scale, leading to suboptimal comprehension and synthesis of numerous actions. In this paper, we introduce EchoReel, a novel approach to augment the capability of VDMs in generating intricate actions by emulating motions from pre-existing videos, which are readily accessible from databases or online repositories. EchoReel seamlessly integrates with existing VDMs, enhancing their ability to produce realistic motions without compromising their fundamental capabilities. Specifically, the Action Prism (AP), is introduced to distill motion information from reference videos, which requires training on only a small dataset. Leveraging the knowledge from pre-trained VDMs, EchoReel incorporates new action features into VDMs through the additional layers, eliminating the need for any further fine-tuning of untrained actions. Extensive experiments demonstrate that EchoReel is not merely replicating the whole content from references, and it significantly improves the generation of realistic actions, even in situations where existing VDMs might directly fail. Code and website are available in the supplementary material.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+</br>
+</br>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h3 class="title is-3" style="text-align: center;">Overview</h3>
+        <!-- Your video here -->
+        <img src="static/images/overview.jpg" alt="MY ALT TEXT"/>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="section hero is-light">
+  <div class="container is-max-desktop">
+  <div class="hero-body">
+    <table border="1" class="full-width-table">
+      <tr>
+        <td></td>
+        <td>VideoCrafter</td>
+        <td>+EchoReel</td>
+      </tr>
+      <tr>
+        <td>A man is playing guitar by the fire</td>
+        <td><img src="static/images/o1.gif"></td>
+        <td><img src="static/images/e1.gif"></td>
+      </tr>
+      <tr>
+        <td>3,1</td>
+        <td>3,2</td>
+        <td>3,3</td>
+      </tr>
+      <tr>
+        <td>4,1</td>
+        <td>4,2</td>
+        <td>4,3</td>
+      </tr>
+    </table>
+  </div>
+  </div>
+</section> -->
+
+<!-- Image carousel -->
+
+<!-- End image carousel -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div style="text-align: center; font-size: x-large;">
+        <h3 class="title is-3" style="text-align: center;">Visual Results</h3>
+        <table class="center">
+          <!-- <td style="text-align:center;" width="50">Input Text</td> -->
+          <tr>
+          <td style="text-align:center;vertical-align:middle;" width="14%" class="title is-4">Input Text</td>
+          <td style="text-align:center;" width="18%" class="title is-4">VideoCrafter2</td>
+          <td style="text-align:center;" width="18%" class="title is-4">+ EchoReel</td>
+          <td style="text-align:center;vertical-align:middle;" width="14%" class="title is-4">Input Text</td>
+          <td style="text-align:center;" width="18%" class="title is-4">VideoCrafter2</td>
+          <td style="text-align:center;" width="18%" class="title is-4">+ EchoReel</td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man is studying in the library"</td>
+          <td><img src=static/images/1.gif width="90%"></td>
+          <td><img src=static/images/2.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man is repairing a car"</td>
+          <td><img src=static/images/11.gif width="90%"></td>
+          <td><img src=static/images/12.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man is skiing"</td>
+          <td><img src=static/images/3.gif width="90%"></td>
+          <td><img src=static/images/4.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A boy plays guitar by the campfire"</td>
+          <td><img src=static/images/13.gif width="90%"></td>
+          <td><img src=static/images/14.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man is running"</td>
+          <td><img src=static/images/5.gif width="90%"></td>
+          <td><img src=static/images/6.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A farmer is harvesting crops"</td>
+          <td><img src=static/images/15.gif width="90%"></td>
+          <td><img src=static/images/16.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"Couple walking on the beach"</td>
+          <td><img src=static/images/7.gif width="90%"></td>
+          <td><img src=static/images/8.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A child is blowing bubbles"</td>
+          <td><img src=static/images/17.gif width="90%"></td>
+          <td><img src=static/images/18.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man is carving a stone statue"</td>
+          <td><img src=static/images/9.gif width="90%"></td>
+          <td><img src=static/images/10.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A chef making a cake"</td>
+          <td><img src=static/images/19.gif width="90%"></td>
+          <td><img src=static/images/20.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man is painting a mural"</td>
+          <td><img src=static/images/21.gif width="90%"></td>
+          <td><img src=static/images/22.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"Looking at diamonds through a magnifying glass"</td>
+          <td><img src=static/images/23.gif width="90%"></td>
+          <td><img src=static/images/24.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man looking into the distance on the top of a mountain"</td>
+          <td><img src=static/images/25.gif width="90%"></td>
+          <td><img src=static/images/26.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A group of people playing beach volleyball"</td>
+          <td><img src=static/images/27.gif width="90%"></td>
+          <td><img src=static/images/28.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A painter is painting"</td>
+          <td><img src=static/images/29.gif width="90%"></td>
+          <td><img src=static/images/30.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A female worker is using a sewing machine"</td>
+          <td><img src=static/images/31.gif width="90%"></td>
+          <td><img src=static/images/32.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A man is diving"</td>
+          <td><img src=static/images/33.gif width="90%"></td>
+          <td><img src=static/images/34.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A person is making pottery"</td>
+          <td><img src=static/images/35.gif width="90%"></td>
+          <td><img src=static/images/36.gif width="90%"></td>
+          <tr>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"A plane is flying in the sky"</td>
+          <td><img src=static/images/37.gif width="90%"></td>
+          <td><img src=static/images/38.gif width="90%"></td>
+          <td style="text-align:center;vertical-align:middle;font-size: smaller; font-style: italic;">"Standing alone in the sunset"</td>
+          <td><img src=static/images/39.gif width="90%"></td>
+          <td><img src=static/images/40.gif width="90%"></td>
+        </tr>
+        </table >
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{Liu2024EchoReel,
+        title={EchoReel: Enhancing Action Generation of Existing Video Diffusion Models}, 
+        author={Jianzhi Liu, Junchen Zhu, Lianli Gao, Jingkuan Song},
+        year={2024},
+        eprint={--},
+        archivePrefix={arXiv},
+      }
+    </code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
